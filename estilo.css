@@ -1,0 +1,62 @@
+@import url(https://db.onlinewebfonts.com/c/1c8f6780be2f9189fe4de93487cdb0f0?family=Galano+Grotesque+W00+Thin);
+@import url(https://db.onlinewebfonts.com/c/b3fa9fda8fc433da88a5a3292b4f2d38?family=Galano+Grotesque+Light);
+
+.letraGFonts1{
+    font-family: "Galano Grotesque Light";
+}
+.letraGFonts2{
+    font-family: 'Galano Grotesque Alt', sans-serif;
+}
+.letraGFonts3{
+    font-family: "Galano Grotesque W00 Thin";
+}
+.letraGFonts4{
+    font-family: "Galano Grotesque";
+}
+
+.hover-scale{
+    transition: transform 0.2s;
+}
+.hover-scale:hover{
+    transform: scale(1.2);
+}
+
+.hover-scale2{
+    transition: transform 0.3s ease-in-out;
+}
+.hover-scale2:hover {
+    transform: scale(1.03) translateX(45px);
+}
+
+.hover-scale3{
+    transition: transform 0.2s;
+}
+.hover-scale3:hover{
+    transform: scale(1.05);
+}
+
+.alt{
+    height: 600px;
+}
+.footer{
+    width: 100%;
+    height: 460px;
+}
+.nav{
+    width: 100%;
+    height: 125px;
+}
+
+/* Barra de rolagem modificada */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #78716c;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #78716c;
+}

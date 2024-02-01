@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://db.onlinewebfonts.com/c/0007c768c0c6149485a44a0409d9433c?family=Galano+Grotesque"
+        rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <object class="nav" data="nav.html"></object>
+    <!--FIM DO CABEÇALHO -->
+
+    <!-- INFORMAÇÕES -->
+    <div class="border-l-2 border-l-solid border-l-[#565656] border-l-opacity-95 ml-24 mt-16 p-10">
+        <p class="text-4xl ml-8 letraGFonts1 text-[#565656] tracking-widest">CONTATO</p>
+    </div>
+    <p class="text-xl mt-10 ml-24 letraGFonts1 text-[#565656]">Preencha o formulário abaixo com todas as informações e
+        área desejada de contato.</p>
+    <!-- FIM DAS INFORMAÇÕES -->
+
+    <!-- FORMULÁRIO -->
+    <div class="mx-8 mt-16 mb-10 letraGFonts4 p-4 bg-[#E2E2E2]">
+        <section class="container mx-auto bg-[#E2E2E2] p-6">
+            <form action="#" method="post" class="bg-[#E2E2E2] p-6 rounded-lg">
+                <div class="mb-4">
+                    <select class="w-full bg-[#E2E2E2] p-2 border-b-2 border-b-solid border-b-[#999999]" required>
+                        <option value="">Selecione o tipo de solicitação</option>
+                        <option value="1">Atendimento ao Consumidor</option>
+                        <option value="2">Área de Marketing</option>
+                    </select>
+                </div>
+
+                <div class="mb-4 grid grid-cols-2 gap-4">
+                    <input
+                        class="w-full placeholder-[#353535] bg-[#E2E2E2] p-2 border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Nome" required>
+                    <input
+                        class="w-full placeholder-[#353535] bg-[#E2E2E2] p-2 border-b-2 border-b-solid border-b-[#999999]"
+                        type="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="mb-4 grid grid-cols-2 gap-4">
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="CPF" required>
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" id="data_nascimento" placeholder="Data de Nascimento" required>
+                </div>
+
+                <div class="mb-4 grid grid-cols-2 gap-4">
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Telefone" required>
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="CEP" required>
+                </div>
+
+                <div class="mb-4 grid grid-cols-3 gap-4">
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Endereço" required>
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Complemento">
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Bairro" required>
+                </div>
+
+                <div class="mb-4 grid grid-cols-2 gap-4">
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Estado" required>
+                    <input
+                        class="w-full placeholder-[#353535] p-2 bg-[#E2E2E2] border-b-2 border-b-solid border-b-[#999999]"
+                        type="text" placeholder="Cidade" required>
+                </div>
+
+                <div class="mb-4">
+                    <textarea
+                        class="w-full placeholder-[#353535] bg-[#E2E2E2] p-2 border-b-2 border-b-solid border-b-[#999999]"
+                        placeholder="Mensagem" required></textarea>
+                </div>
+
+                <div class="mb-4">
+                    <label class="flex items-center">
+                        <input type="radio" class="mr-2" required>
+                        <span>Eu aceito os termos de uso e política de privacidade.</span>
+                    </label>
+                </div>
+                <div class="text-center">
+                    <button class="py-2 px-6 rounded-lg text-2xl hover-scale" type="submit">ENVIAR <span
+                            class="w-12 mb-2 border-b inline-block border-black"></span></button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- FIM DO FORMULÁRIO -->
+
+    <!-- RODAPÉ -->
+    <object class="footer" data="footer.html"></object>
+    <!--FIM DO RODAPÉ -->
+</body>
+
+</html>
